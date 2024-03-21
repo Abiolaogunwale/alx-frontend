@@ -1,70 +1,17 @@
-@media screen and (max-width: 479px)
-.bg {
-    z-index: 0;
-    width: 14em;
-    height: 30em;
-    min-height: 30em;
-    min-width: 14em;
-    background-position: 0%;
-    background-size: contain;
-    top: 50%;
-    left: 68%;
-}
-@media screen and (max-width: 767px)
-.bg {
-    width: 35%;
-    min-width: 35%;
-    background-size: contain;
-}
-@media screen and (max-width: 991px)
-.bg {
-    width: 40%;
-    height: 110vh;
-    min-height: auto;
-    min-width: 40%;
-    background-position: 100%;
-    background-size: contain;
-    right: -10px;
-}
-.bg {
-    z-index: 1;
-    width: 40%;
-    height: 110vh;
-    max-height: 110vh;
-    min-height: 100vh;
-    min-width: 40%;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url(https://uploads-ssl.webflow.com/6105315…/611e13a…_semi-logo-holberton-01.svg);
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 60px;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
-}
-* {
-    box-sizing: border-box;
-}
-body {
-    color: #292728;
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 20px;
-}
-body {
-    min-height: 100%;
-    color: #333;
-    background-color: #fff;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-}
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font-family: sans-serif;
-}
+padding: 1rem 1.75rem;
+font-size: 1.25rem;
+color: #f8f9fa;
+border-color: #f8f9fa;
+display: inline-block;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+background-color: transparent;
+border: 0.125rem solid transparent;
+line-height: 1.5;
+border-radius: 0.5rem;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+text-decoration: none;
+box-sizing: border-box;
+cursor: pointer;
